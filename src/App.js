@@ -1,8 +1,8 @@
-
 import React from 'react';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 import './App.css';
 import PremierLeagueLogo from './Premier_League.png';
+import Home from './Home';
 
 const App = () => {
   return (
@@ -33,8 +33,10 @@ const App = () => {
         </header>
         {/* Content section */}
         <div className="app">
-          <h2>Welcome to the Premier League</h2>
-          {/* Add your content here */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            {/* Add routes for other components */}
+          </Routes>
         </div>
       </div>
     </Router>
@@ -42,4 +44,5 @@ const App = () => {
 };
 
 export default App;
+
 
