@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-do
 import './App.css';
 import PremierLeagueLogo from './Premier_League.png';
 import Home from './Home';
+import PointsTable from './Point_Table';
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
         <div className="app">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/point-table" element={<PointsTable />} /> {/* Add this route */}
             {/* Add routes for other components */}
           </Routes>
         </div>

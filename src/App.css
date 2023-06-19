@@ -104,6 +104,36 @@ body {
   margin-right: 0;
 }
 
+/* App.css */
+
+/* ... Other styles ... */
+
+.points-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+.points-table th,
+.points-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.points-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.points-table tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.points-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   .navbar-container {
