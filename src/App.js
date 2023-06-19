@@ -5,7 +5,8 @@ import PremierLeagueLogo from './Premier_League.png';
 import Home from './Home';
 import PointsTable from './Point_Table';
 import PlayedMatches from './PlayedMatches';
-// import AddMatch from './AddMatch';
+
+import AddMatch from './AddMatch';
 
 const App = () => {
   return (
@@ -40,7 +41,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/point-table" element={<PointsTable />} /> 
             <Route path="/played-matches" element={<PlayedMatches />} />
-            {/* <Route path="/add-match" element={<AddMatch />} /> */}
+            <Route path="/add-match" element={<AddMatch />} />
             {/* Add this route */}
             {/* Add routes for other components */}
           </Routes>
