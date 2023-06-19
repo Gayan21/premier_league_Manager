@@ -1,0 +1,32 @@
+/* PlayedMatches.css *//* PlayedMatches.css */
+/* PlayedMatches.css */
+
+.played-matches-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .played-matches-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc; /* Add table border */
+  }
+  
+  .played-matches-table th,
+  .played-matches-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+  }
+  
+  .played-matches-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .played-matches-table tbody tr:nth-child(even) {
+    background-color: #ddd;
+  }
+  
