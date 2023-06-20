@@ -19,7 +19,7 @@ const App = () => {
             </a>
           </div>
           <nav className="navbar-container">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav right">
               <li className="nav-item">
                 <NavLink exact to="/" className="nav-link" activeClassName="active">Home</NavLink>
               </li>

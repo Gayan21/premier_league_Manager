@@ -14,7 +14,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #333;
+  background-color: #00c0fa;
   padding: 20px;
   color: #fff;
   display: flex;
@@ -22,16 +22,13 @@ body {
   align-items: center;
 }
 
-/* Navigation bar styles */
 .navbar-container {
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
 }
 
 .navbar-logo img {
-  height: 40px;
+  height: 50px;
 }
 
 .navbar-nav {
@@ -43,7 +40,7 @@ body {
 }
 
 .nav-item {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .nav-link {
@@ -72,13 +69,6 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #191970; /* New background color */
-}
-
 
 .app h2 {
   margin-bottom: 20px;
@@ -86,6 +76,7 @@ body {
   text-align: center;
   font-size: 44px;
 }
+
 .card-container {
   display: flex;
   justify-content: space-between;
@@ -97,17 +88,14 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #AFEEEE;
+  background-color: #afeeee;
 }
 
 .card:last-child {
   margin-right: 0;
 }
 
-/* App.css */
-
-/* ... Other styles ... */
-
+/* Points table styles */
 .points-table {
   width: 100%;
   border-collapse: collapse;
@@ -132,7 +120,6 @@ body {
 .points-table tbody tr:hover {
   background-color: #ddd;
 }
-
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
