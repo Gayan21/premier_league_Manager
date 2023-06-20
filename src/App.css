@@ -65,9 +65,16 @@ body {
   align-items: center;
   flex-direction: column;
   height: calc(100vh - 80px);
-  background-color: #191970;
+  /* Set the background image and adjust properties as needed */
+  background-image: url('./pl.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  padding: 20px;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .app h2 {
@@ -89,6 +96,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: #afeeee;
+  
 }
 
 .card:last-child {
@@ -127,4 +135,3 @@ body {
     padding: 0 20px;
   }
 }
-
