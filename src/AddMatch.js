@@ -1,15 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './AddMatch.css';
 
 const AddMatch = () => {
-  const teamOne = 'Team A';
-  const teamTwo = 'Team B';
-  const goalsOne = 2;
-  const goalsTwo = 1;
+  const [teamOne, setTeamOne] = useState('');
+  const [teamTwo, setTeamTwo] = useState('');
+  const [goalsOne, setGoalsOne] = useState(0);
+  const [goalsTwo, setGoalsTwo] = useState(0);
+
+  const teams = ['Team A', 'Team B', 'Team C', 'Team D', 'Team E']; // List of teams
 
   const handlePlayMatch = () => {
-    // Perform action when "Play Match" button is clicked
-    console.log('Playing match:', teamOne, goalsOne, '-', teamTwo, goalsTwo);
+    const randomTeamOne = teams[Math.floor(Math.random() * teams.length)];
+    const randomTeamTwo = teams[Math.floor(Math.random() * teams.length)];
+
+    // Generate random goals for each team
+    const randomGoalsOne = Math.floor(Math.random() * 6); // Random number between 0 and 5
+    const randomGoalsTwo = Math.floor(Math.random() * 6);
+
+    setTeamOne(randomTeamOne);
+    setTeamTwo(randomTeamTwo);
+    setGoalsOne(randomGoalsOne);
+    setGoalsTwo(randomGoalsTwo);
+
+    console.log('Playing match:', randomTeamOne, randomGoalsOne, '-', randomTeamTwo, randomGoalsTwo);
   };
 
   return (
