@@ -4,10 +4,10 @@ import './PlayedMatches.css';
 const PlayedMatches = () => {
   // Dummy data for played matches
   const matchesData = [
-    { date: '2023-06-01', teamOne: 'Team A', goalsOne: 2, teamTwo: 'Team B', goalsTwo: 1 },
-    { date: '2023-06-03', teamOne: 'Team C', goalsOne: 0, teamTwo: 'Team D', goalsTwo: 2 },
-    { date: '2023-06-06', teamOne: 'Team E', goalsOne: 1, teamTwo: 'Team F', goalsTwo: 1 },
-    { date: '2023-06-09', teamOne: 'Team G', goalsOne: 3, teamTwo: 'Team H', goalsTwo: 2 },
+    { date: '2023-06-01', teamOne: 'Manchester United', goalsOne: 2, teamTwo: 'Liverpool', goalsTwo: 1 },
+    { date: '2023-06-03', teamOne: 'Chelsea', goalsOne: 0, teamTwo: 'Manchester City', goalsTwo: 2 },
+    { date: '2023-06-06', teamOne: 'Arsenal', goalsOne: 1, teamTwo: 'Tottenham Hotspur', goalsTwo: 1 },
+    { date: '2023-06-09', teamOne: 'Leicester City', goalsOne: 3, teamTwo: 'Everton', goalsTwo: 2 },
   ];
 
   return (
@@ -42,6 +42,7 @@ const PlayedMatches = () => {
 };
 
 export default PlayedMatches;
+
 
 
 

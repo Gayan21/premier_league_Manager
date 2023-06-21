@@ -4,10 +4,16 @@ import './Point_Table.css';
 const PointsTable = () => {
   // Dummy data for points table
   const tableData = [
-    { club: 'Club A', location: 'Location A', owner: 'Owner A', points: 15, wins: 5, defeats: 2, draws: 3, matches: 10, goalsScored: 15, goalsReceived: 10 },
-    { club: 'Club B', location: 'Location B', owner: 'Owner B', points: 12, wins: 4, defeats: 3, draws: 0, matches: 7, goalsScored: 10, goalsReceived: 8 },
-    { club: 'Club C', location: 'Location C', owner: 'Owner C', points: 10, wins: 3, defeats: 4, draws: 1, matches: 8, goalsScored: 12, goalsReceived: 15 },
-    { club: 'Club D', location: 'Location D', owner: 'Owner D', points: 8, wins: 2, defeats: 5, draws: 2, matches: 9, goalsScored: 9, goalsReceived: 12 },
+    { club: 'Manchester City', location: 'Manchester', owner: 'City Football Group', points: 86, wins: 27, defeats: 6, draws: 5, matches: 38, goalsScored: 83, goalsReceived: 32 },
+    { club: 'Manchester United', location: 'Manchester', owner: 'Manchester United plc', points: 74, wins: 21, defeats: 7, draws: 11, matches: 38, goalsScored: 73, goalsReceived: 44 },
+    { club: 'Liverpool', location: 'Liverpool', owner: 'Fenway Sports Group', points: 69, wins: 20, defeats: 9, draws: 9, matches: 38, goalsScored: 68, goalsReceived: 42 },
+    { club: 'Chelsea', location: 'London', owner: 'Roman Abramovich', points: 67, wins: 19, defeats: 10, draws: 9, matches: 38, goalsScored: 58, goalsReceived: 36 },
+    { club: 'Leicester City', location: 'Leicester', owner: 'King Power International Group', points: 66, wins: 20, defeats: 10, draws: 6, matches: 38, goalsScored: 68, goalsReceived: 50 },
+    { club: 'West Ham United', location: 'London', owner: 'David Sullivan', points: 65, wins: 19, defeats: 11, draws: 8, matches: 38, goalsScored: 62, goalsReceived: 47 },
+    { club: 'Tottenham Hotspur', location: 'London', owner: 'ENIC International Ltd.', points: 62, wins: 18, defeats: 12, draws: 8, matches: 38, goalsScored: 68, goalsReceived: 45 },
+    { club: 'Arsenal', location: 'London', owner: 'KSE (Kroenke Sports & Entertainment)', points: 61, wins: 18, defeats: 13, draws: 7, matches: 38, goalsScored: 55, goalsReceived: 39 },
+    { club: 'Leeds United', location: 'Leeds', owner: 'Andrea Radrizzani', points: 59, wins: 18, defeats: 15, draws: 5, matches: 38, goalsScored: 62, goalsReceived: 54 },
+    { club: 'Everton', location: 'Liverpool', owner: 'Farhad Moshiri', points: 59, wins: 17, defeats: 13, draws: 8, matches: 38, goalsScored: 47, goalsReceived: 46 },
   ];
 
   return (
@@ -49,4 +55,9 @@ const PointsTable = () => {
 };
 
 export default PointsTable;
+
+
+
+
+
 
